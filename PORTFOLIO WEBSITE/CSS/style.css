@@ -1,0 +1,68 @@
+/* Add your styles here */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+nav{
+    overflow: hidden;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.navigation ul li a:link, a:visited,a:hover,a:active{
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+section {
+    padding: 2em;
+}
+
+#foot {
+    padding-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    bottom: 0;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.calcimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+#mail{
+    color:blue;
+}
+#download{
+    color: blue;
+}

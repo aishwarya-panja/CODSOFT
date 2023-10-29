@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Making a Calculator</title>
+        <link rel = "Stylesheet" type ="text/css" href = "CSS/CALCULATOR.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.0.1/math.min.js" integrity="sha512-B82WLflI1EQiR9sGbIV1ddGVvK4ghj1xjMShL7YvcOrHjX2qP72lHztT1DxBVPiz1aTR6mOUJbtwj06uadL2GA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>`
+    </head>
+
+    <body>
+        <table id = "calc">
+            <tr>
+                <td colspan = "3"><input type = "text" id = "result" autofocus onblur = "this.focus" /> </td>
+                <td><input type = "button" value = "C" onclick = "clr()"/> </td>
+            </tr>
+            <tr>
+                <td><input type = "button" value = "1" onclick="dis('1')" onkeydown="func(event)"/> </td>
+                <td><input type = "button" value = "2" onclick="dis('2')" onkeydown="func(event)"/> </td>
+                <td><input type = "button" value = "3" onclick="dis('3')" onkeydown="func(event)"/> </td>
+                <td><input type = "button" value = "/" onclick="dis('/')" onkeydown="func(event)"/> </td>
+            </tr>
+            <tr>
+                <td><input type = "button" value = "4" onclick="dis('4')" onkeydown="func(event)"/> </td>
+                <td><input type = "button" value = "5" onclick="dis('5')" onkeydown="func(event)"/> </td>
+                <td><input type = "button" value = "6" onclick="dis('6')" onkeydown="func(event)"/> </td>
+                <td><input type = "button" value = "*" onclick="dis('*')" onkeydown="func(event)"/> </td>
+            </tr>
+            <tr>
+                <td><input type = "button" value = "7" onclick="dis('7')" onkeydown="func(event)"/> </td>
+                <td><input type = "button" value = "8" onclick="dis('8')" onkeydown="func(event)"/> </td>
+                <td><input type = "button" value = "9" onclick="dis('9')" onkeydown="func(event)"/> </td>
+                <td><input type = "button" value = "-" onclick="dis('-')" onkeydown="func(event)"/> </td>
+            </tr>
+            <tr>
+                <td><input type = "button" value = "0" onclick="dis('0')" onkeydown="func(event)"/> </td>
+                <td><input type = "button" value = "." onclick="dis('.')" onkeydown="func(event)"/> </td>
+                <td><input type = "button" value = "=" onclick = "solve()"/> </td>
+                <td><input type = "button" value = "+" onclick="dis('+')" onkeydown="func(event)"/> </td>
+            </tr>
+        </table>
+        <script src = "JS/CALCULATOR.js"></script>
+    </body>
+</html>
